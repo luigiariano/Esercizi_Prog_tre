@@ -28,6 +28,7 @@ public class Esempi {
         String input = JOptionPane.showInputDialog("Inserisci i soldi");
         int intero = Integer.parseInt(input);
         System.out.println(intero);
+        int ciao;
 
 
     }
