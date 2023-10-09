@@ -1,5 +1,7 @@
 package Tipi_di_dati;
 
+import Eredità.CheckingAccount;
+
 import javax.swing.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -28,6 +30,14 @@ public class Esempi {
         String input = JOptionPane.showInputDialog("Inserisci i soldi");
         int intero = Integer.parseInt(input);
         System.out.println(intero);
+        //check account test
+        CheckingAccount luigi=new CheckingAccount(3);
+        luigi.deposit(5); //18-3
+        luigi.deposit(5);
+        luigi.deposit(5);
+        luigi.deposit(5);
+        System.out.println(luigi.getBalance());
+
 
 
     }
